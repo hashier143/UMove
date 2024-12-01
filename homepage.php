@@ -29,7 +29,12 @@
 
         <div class="desc1">
            <div class="container">
-                
+                <div class="wrapper">
+                    <img src="styles/images/slide1.jpg">
+                    <img src="styles/images/slide1.jpg">
+                    <img src="styles/images/slide1.jpg">
+                    <img src="styles/images/slide1.jpg">
+                </div>
            </div>
         </div>
 

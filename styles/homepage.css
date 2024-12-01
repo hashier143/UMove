@@ -95,16 +95,73 @@ li a {
 
 .desc1, .desc2 {
   margin: 10px;
-  
 }
 
 .desc1 {
   background-color: aqua;
-  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 95%;
 }
+
+/*slider*/
+
+.container {
+  background-color: aquamarine;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+
+.wrapper {
+  width: 400%;
+  height: 100%;
+  display: flex;
+  animation: slide 16s infinite ease-in-out;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-25%);
+  }
+  50%{
+    transform: translateX(-25%);
+  }
+  55%{
+    transform: translateX(-50%);
+  }
+  75%{
+    transform: translateX(-50%);
+  }
+  80%{
+    transform: translateX(-75%);
+  }
+  100%{
+    transform: translateX(-75%);
+  }
+}
+
 .desc2 {
   background-color: blue;
-  flex-grow: 1;
+  width: 30%;
+  height: 95%;
 }
 
   
