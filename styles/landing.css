@@ -8,8 +8,13 @@ body {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
 }
 
+body.fade-out {
+    opacity: 0;
+}
 div {
     background-color: #ba1400;
     margin: 0;

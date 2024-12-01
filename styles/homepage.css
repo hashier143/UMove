@@ -4,18 +4,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(images/homepage-back.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
 }
 
 
 
 /*navbar*/
 .nav-container {
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 100vw;
   display: flex;
   justify-content: space-around;
-  background-color: aqua;
   align-items: center;
+  color: aliceblue;
 }
 
 .nav-container div {
@@ -32,6 +40,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
 
 li {
@@ -40,7 +49,7 @@ li {
 
 li a {
     display: block;
-    color: rgb(54, 23, 23);
+    color: aliceblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -63,7 +72,7 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .image-top h2 {
@@ -122,7 +131,7 @@ li a {
   width: 400%;
   height: 100%;
   display: flex;
-  animation: slide 16s infinite ease-in-out;
+  animation: slide 10s infinite ease-in-out;
 }
 
 .wrapper img {
@@ -158,10 +167,35 @@ li a {
   }
 }
 
+
+
 .desc2 {
   background-color: blue;
   width: 30%;
   height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-  
+.desc2 div {
+  width: 90%;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.desc2-1 {
+  background-color: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+.desc2-2 {
+  background-color: rgb(173, 124, 50);
+}
