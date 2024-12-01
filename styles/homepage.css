@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Cherry+Bomb+One&family=Jaro:opsz@6..72&family=Potta+One&family=Roboto+Mono:wght@700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*navbar*/
+.nav-container {
+  margin-bottom: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  align-items: center;
+}
+
+.nav-container div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container div p {
+  margin-left: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(54, 23, 23);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+/*imagetop*/
+
+.image-top {
+  width: 70vw;
+  height: 200px;
+  background-image: url(images/homepage-top.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-top h2 {
+  font-family: "Chango";
+  color: #ff3131;
+  font-size: 100px;
+  margin: 0;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image-top h3 {
+  font-family: "Chango";
+  color: #ff3131;
+  font-size: 40px;
+  margin: 0;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+/*description*/
+
+.desc-container {
+  width: 70vw;
+  height: 55vh;
+  background-color: #ff3131;
+  display: flex;
+  padding: 0;
+  
+}
+
+.desc1, .desc2 {
+  margin: 10px;
+  
+}
+
+.desc1 {
+  background-color: aqua;
+  flex-grow: 2;
+}
+.desc2 {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+  
