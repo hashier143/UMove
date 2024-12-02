@@ -10,7 +10,7 @@
     <div class = "nav-container">
         <div>
             <img src="styles/images/profile-icon.png">
-            <p>Log-in/Sign-up</p>
+            <p><a href="logsign.php" class="login">Log-in/Sign-up</a></p>
         </div>
         <ul>
             <li><a href="">Home</a></li>
@@ -30,10 +30,10 @@
         <div class="desc1">
            <div class="container">
                 <div class="wrapper">
+                    <img src="styles/images/slide3.jpg">
+                    <img src="styles/images/slide2.png">
                     <img src="styles/images/slide1.jpg">
-                    <img src="styles/images/slide1.jpg">
-                    <img src="styles/images/slide1.jpg">
-                    <img src="styles/images/slide1.jpg">
+                    <img src="styles/images/slide3.jpg">
                 </div>
            </div>
         </div>
@@ -42,12 +42,12 @@
 
           <div class="desc2-1">
             <h3>Progress Tracking Made Easy</h3>
-            <h4>Students can monitor their performance and <br>teachers can track progress, ensuring everyone stays<br> on top of their health goals.</h4>
+            <h4>Students can monitor their performance and teachers can track progress, ensuring everyone stays on top of their health goals.</h4>
           </div>
 
           <div class="desc2-2">
-            <h3>Progress Tracking Made Easy</h3>
-            <h4>Students can monitor their performance and <br>teachers can track progress, ensuring everyone stays<br> on top of their health goals.</h4>
+            <h3>Resources for Students</h3>
+            <h4>Students can access resources, connect with teachers. A healthier, stronger community starts here!</h4>
           </div>
 
         </div>

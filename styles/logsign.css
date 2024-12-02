@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    background-image: url(images/landing\ page.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ba13009d;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    flex-grow: 1;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+form {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.input-group label {
+    width: 30%;
+    background-color: #1a6d82;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.input-group input {
+    width: 70%;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+button {
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1a6d82;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.eye {
+    position: relative;
+}
+
+span {
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 350px;
+    margin-top: 15px;
+}

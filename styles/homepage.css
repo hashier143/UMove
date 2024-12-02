@@ -13,7 +13,10 @@ body {
   margin: 0;
 }
 
-
+.login {
+    color: aliceblue;
+    text-decoration: none;
+}
 
 /*navbar*/
 .nav-container {
@@ -96,7 +99,7 @@ li a {
 .desc-container {
   width: 70vw;
   height: 55vh;
-  background-color: #ff3131;
+  background-color: #31b8438e;
   display: flex;
   padding: 0;
   
@@ -107,7 +110,6 @@ li a {
 }
 
 .desc1 {
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,20 +120,19 @@ li a {
 /*slider*/
 
 .container {
-  background-color: aquamarine;
   width: 90%;
   height: 90%;
   overflow: hidden;
-  border: 20px solid #ffffff;
+  border: 20px solid #f7f5e9;
   border-radius: 8px;
-  box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+  box-shadow: 10px 25px 30px rgba(200, 30, 30, 0.3);
 }
 
 .wrapper {
   width: 400%;
   height: 100%;
   display: flex;
-  animation: slide 10s infinite ease-in-out;
+  animation: slide 5s infinite ease-in-out;
 }
 
 .wrapper img {
@@ -170,11 +171,11 @@ li a {
 
 
 .desc2 {
-  background-color: blue;
   width: 30%;
   height: 95%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .desc2 div {
@@ -188,16 +189,21 @@ li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rebeccapurple;
   flex-direction: column;
-  line-height: 13px;
+  line-height: 30px;
   padding: 0;
   margin: 0;
   height: 50%;
 }
 
-
 .desc2-1 h3, .desc2-1 h4, .desc2-2 h3, .desc2-2 h4 {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f7f5e9;
+  color: black;
+  border-radius: 10px;
+}
+
+.desc2 h3 {
+  -webkit-text-stroke: 1px rgb(168, 32, 32);
 }
