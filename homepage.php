@@ -46,7 +46,8 @@
           </div>
 
           <div class="desc2-2">
-w
+            <h3>Progress Tracking Made Easy</h3>
+            <h4>Students can monitor their performance and <br>teachers can track progress, ensuring everyone stays<br> on top of their health goals.</h4>
           </div>
 
         </div>

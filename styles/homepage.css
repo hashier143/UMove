@@ -175,27 +175,29 @@ li a {
   height: 95%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .desc2 div {
   width: 90%;
-  flex-grow: 1;
   padding: 0;
   margin: 0;
 }
 
-.desc2-1 {
-  background-color: rebeccapurple;
+.desc2-1, .desc2-2 {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: rebeccapurple;
+  flex-direction: column;
   line-height: 13px;
   padding: 0;
   margin: 0;
+  height: 50%;
 }
 
-.desc2-2 {
-  background-color: rgb(173, 124, 50);
+
+.desc2-1 h3, .desc2-1 h4, .desc2-2 h3, .desc2-2 h4 {
+  margin: 0;
+  padding: 0;
 }
