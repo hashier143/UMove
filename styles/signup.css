@@ -21,7 +21,7 @@ html, body {
     align-items: center;
 }
 
-h1 {
+h1 {    
     flex-grow: 1;
     color: white;
     font-size: 70px;
@@ -38,8 +38,10 @@ form {
 }
 
 .input-group {
-    margin-bottom: 25px;
+    margin-bottom: 0;
     display: flex;
+    flex-direction: column;
+    height: 50%;
 }
 
 .input-group label {
@@ -76,6 +78,8 @@ button {
 a {
     color: aliceblue;
     text-decoration: none;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .eye {
@@ -88,4 +92,33 @@ span {
     z-index: 2;
     margin-left: 350px;
     margin-top: 15px;
+}
+
+
+div {
+    display: flex;
+}
+
+#no-bot {
+    margin-bottom: 0;
+}
+
+.signup-errors{
+    position: fixed;
+    left: 38vw;
+    top: 160px;
+    background-color: rgb(196, 26, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.registered{
+    position: fixed;
+    left: 38vw;
+    top: 160px;
+    background-color: rgb(26, 196, 54);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 20px;
 }

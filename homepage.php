@@ -1,3 +1,4 @@
+<?php session_start(); ?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +7,9 @@
     <link rel="stylesheet" href="styles/homepage.css">
     <title>Home</title>
 </head>
+
 <body>
-    <div class = "nav-container">
-        <div>
-            <img src="styles/images/profile-icon.png">
-            <p><a href="logsign.php" class="login">Log-in/Sign-up</a></p>
-        </div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="https://youtu.be/vahBUitgPNE?si=vhbYNoCde-VrH_pc&t=63">Lessons</a></li>
-            <li><a href="">Calculator</a></li>
-            <li><a href="">About</a></li>
-        </ul>
-    </div>
+    <?php include "header.php"?>
 
     <div class="image-top">
         <h2>UMOVE!</h2>
