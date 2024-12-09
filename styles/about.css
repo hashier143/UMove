@@ -1,0 +1,44 @@
+.container-about {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections {
+    width: 100%;
+    flex-grow: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-about {
+    width: 100%;
+    background-color: #f7f5e9;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-about {
+    width: 100%;
+    background-color: #b83a318e;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}

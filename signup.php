@@ -12,7 +12,6 @@
 <body>
     <div class="container">
         <h1>UMAK</h1>
-        <?php include 'addons/alert.php'; ?>
         <?php
             if (isset($_POST["signup"])) {
                 $firstname = $_POST["firstname"];

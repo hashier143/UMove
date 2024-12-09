@@ -14,6 +14,20 @@ $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
 if(isset($user)){
     $name = $user["firstname"]." ".$user["lastname"];
     $email = $user["email"];
+    $bmi = "";
+    $classify = "";
+    if($user["BMI"] > 0){
+        $bmi = number_format($user["BMI"], 2);
+        if ($bmi < 18.5) {
+            $classify = "(Underweight)";
+        } elseif ($bmi < 24.9) {
+            $classify = "(Normal)";
+        } elseif ($bmi < 29.9) {
+            $classify = "(Overweight)";
+        } else {
+            $classify = "(Obesity)";
+        }
+    }
 }
 }
 $profilePic = $user['profile_pic'] ?? 'styles/images/profile-icon.png';
@@ -26,8 +40,8 @@ $profilePic = $user['profile_pic'] ?? 'styles/images/profile-icon.png';
         </div>
         <ul>
             <li><a href="homepage.php">Home</a></li>
-            <li><a href="https://youtu.be/vahBUitgPNE?si=vhbYNoCde-VrH_pc&t=63">Lessons</a></li>
-            <li><a href="imy.php">Calculator</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="lesson.php">Lessons</a></li>
+            <li><a href="calculator.php">Calculator</a></li>
+            <li><a href="about.php">About</a></li>
         </ul>
     </div>

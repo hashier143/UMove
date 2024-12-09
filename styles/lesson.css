@@ -1,0 +1,28 @@
+.container-lessons {
+    width: 70vw;
+    height: 80vh;
+    background-color: rgba(187, 56, 56, 0.753);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lesson {
+    width: 30%;
+    height: 40%;
+    background-color: #f7f5e9;
+    border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    -webkit-text-stroke: 1px #000000;
+    text-decoration: none;
+}
+
+
+.lesson:hover {
+    background-color: #f050458e;
+    color: white;
+}

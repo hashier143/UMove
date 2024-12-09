@@ -77,6 +77,7 @@ if (isset($_POST['upload_image'])) {
         <div class="info-side">
             <h1>Name: <?php echo $name ?></h1>
             <h1>Email: <?php echo $email ?></h1>
+            <h1>BMI: <?php echo $bmi.$classify?></h1>
             <a class="logout" href="logout.php">Log Out</a>
         </div>
     </div>

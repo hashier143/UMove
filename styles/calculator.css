@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+.container-bmi {
+    width: 60vw;
+    height: 60vh;
+    background-color: beige;
+    display: flex;
+    margin-top: 75px;
+}
+
+.bmi-left {
+    background-color: #de0f3f;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    color: #f7f5e9;
+}
+
+.BMI-text {
+    font-size: 124px;
+    padding: 0;
+    margin: 0;
+    font-style: "Newsreader";
+}
+
+.BMI-whole {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-style: "Newsreader";
+}
+
+
+.bmi-right {
+    background-color: #f7f5e9;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffacca;
+    color: #000000;
+}
+
+.div-align {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.button-calc {
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+    
+}
+
+.button-color {
+    background-color: #dd5676;
+    color: white;
+}
+
+label {
+    margin-left: 20px;
+    color: #f7f5e9;
+    -webkit-text-stroke: 1px #dd5676;
+    font-weight: 500;
+}
+
+.div-status {
+    width: 100%;
+}
+
+.status {
+    margin-left: 20px;
+    color: #dd5676;
+}
